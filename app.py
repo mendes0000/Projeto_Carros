@@ -8,7 +8,7 @@ st.sidebar.image("logo.png")
 st.sidebar.title('Motorshop')
 
 
-carros = ['dodge','ferrari','nissan', 'Porsche', 'maquina de misterio', 'dodge']
+carros = ['supra','ferrari','nissan', 'Porsche', 'maquina de misterio', 'ix35']
 
 opcao = st.sidebar.selectbox('Escolha o carro que foi alugado', carros)
 
@@ -24,23 +24,23 @@ st.markdown('---')
 dias = st.text_input(f'Por quantos dias o {opcao} foi alugado?')
 km = st.text_input(f'Quantos km você rodou com o {opcao}?')
 
-if opcao == 'BMW':
-    diaria = 450
+if opcao == 'supra':
+    diaria = 950
 
-elif opcao == 'Mustang':
-    diaria = 500
+elif opcao == 'ferrari':
+    diaria = 620
+
+elif opcao == 'maquina de misterio':
+    diaria = 350
 
 elif opcao == 'nissan':
-    diaria = 2500
+    diaria = 1000
 
-elif opcao == 'Porsche':
-    diaria = 300
+elif opcao == 'porsche':
+    diaria = 650
 
-elif opcao == 'Fusca':
-    diaria = 250
-
-elif opcao == 'Toro':
-    diaria = 550
+elif opcao == 'ix35':
+    diaria = 700
 
 
 
